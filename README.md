@@ -62,7 +62,7 @@ if ($status == GameStatus::ACTIVE) {
 $status = 1;
 
 // 获取状态为 1 的名称
-$description = GameStatus::description($status);
+$description = GameStatus::name($status);
 
 ```
 
