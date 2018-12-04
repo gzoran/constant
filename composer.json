@@ -1,0 +1,17 @@
+{
+    "name": "gzoran/constant",
+    "description": "常量类提供了一些对常量操作的基本方法",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike <zhengzhe94@gmail.com>",
+            "email": "zhengzhe94@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Gzoran\\Constant\\": "src/"
+        }
+    }
+}
