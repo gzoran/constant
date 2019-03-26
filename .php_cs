@@ -1,6 +1,6 @@
 <?php
 $header = <<<EOF
-This file is part of the gzoran/weather.
+This file is part of the gzoran/constant.
 
 (c) gzoran <zhengzhe94@gmail.com>
 
