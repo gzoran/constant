@@ -3,6 +3,7 @@
 <p align="center">常量抽象类 ConstantAbstract 实现了 ConstantContract 契约，提供对常量便捷定义与访问等的操作</p>
 
 [![Build Status](https://travis-ci.org/gzoran/constant.svg?branch=master)](https://travis-ci.org/gzoran/constant)
+![StyleCI build status](https://github.styleci.io/repos/160311390/shield)
 
 ## 安装
 
