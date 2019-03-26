@@ -13,5 +13,4 @@ namespace Gzoran\Constant\Exceptions;
 
 class Exception extends \Exception
 {
-
 }
