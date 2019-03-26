@@ -1,6 +1,10 @@
-# constant
+<h1 align="center">Constant</h1>
 
-常量抽象类 ConstantAbstract 实现了 ConstantContract 契约，提供了对常量基本的操作
+<p align="center">常量抽象类 ConstantAbstract 实现了 ConstantContract 契约，提供对常量便捷定义与访问等的操作</p>
+
+<p align="center">
+[![Build Status](https://travis-ci.org/gzoran/constant.svg?branch=master)](https://travis-ci.org/gzoran/constant)
+</p>
 
 ## 安装
 
@@ -78,3 +82,7 @@ if (GameStatus::isExist($status)) {
 }
 
 ```
+
+## License
+
+MIT
