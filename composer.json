@@ -8,8 +8,8 @@
             "email": "zhengzhe94@gmail.com"
         }
     ],
-    "require": {
-        "phpunit/phpunit": "~5"
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
     },
     "autoload": {
         "psr-4": {
