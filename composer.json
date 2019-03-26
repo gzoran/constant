@@ -8,7 +8,9 @@
             "email": "zhengzhe94@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "phpunit/phpunit": "~5"
+    },
     "autoload": {
         "psr-4": {
             "Gzoran\\Constant\\": "src/"

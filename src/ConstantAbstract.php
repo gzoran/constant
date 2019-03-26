@@ -9,18 +9,27 @@
 namespace Gzoran\Constant;
 
 
+use Gzoran\Constant\Exceptions\InvalidArgumentException;
+
+/**
+ * Class ConstantAbstract
+ * @package Gzoran\Constant
+ */
 abstract class ConstantAbstract implements ConstantContract
 {
     /**
      * @author Mike <zhengzhe94@gmail.com>
      * @param $code
      * @return string
+     * @throws InvalidArgumentException
      */
     public static function name($code)
     {
-        if (! static::isExist($code)) return '';
+        if (! static::isExist($code)) {
+            throw new InvalidArgumentException('Invalid code: ' . $code);
+        }
 
-        return array_get(static::mapping(), $code, '');
+        return static::mapping()[$code];
     }
 
     /**
